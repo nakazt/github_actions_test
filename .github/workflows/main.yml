@@ -1,6 +1,7 @@
 name: name_main
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: python test.py
+  job_name:
+    runs-on: ubuntu-latest
+   steps:
+      - run: python test.py
